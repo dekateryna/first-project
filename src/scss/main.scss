@@ -1,0 +1,17 @@
+.card {
+	padding: 20px;
+
+	&__item {
+		&:not(:last-child) {
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.card {
+	padding: 20px;
+}
+
+.card__item:not(:last-child) {
+	margin-bottom: 20px;
+}
